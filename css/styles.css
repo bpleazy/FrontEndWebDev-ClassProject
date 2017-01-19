@@ -144,7 +144,8 @@ header {
 }
 
 nav {
-  
+  width: 100%;
+  margin: 4em 0 0 0;  
 }
 
 nav::after {
@@ -186,11 +187,12 @@ nav a {
   color: #fff;
   display: block;
   padding: 12px 0;
-  text-align: center;
 }
 
 nav a:hover {
   background-color: #871719;
+  /* This is some custom styling I added to make the links appear bigger when overed over */
+  transform: scale(1.2);
 }
 
 .hero-text{
@@ -221,7 +223,7 @@ nav a:hover {
 .group { zoom:1; /* For IE 6/7 */ }
 
 .span_1_of_2 {
-  width: 100%;
+  width: 48.2%;
 }
 .span_2_of_2{
   width: 100%;
